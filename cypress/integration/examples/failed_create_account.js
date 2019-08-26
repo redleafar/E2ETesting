@@ -3,7 +3,7 @@ describe('Los estudiantes login', function() {
         cy.visit('https://losestudiantes.co')
         cy.contains('Cerrar').click()
 
-        //Registro exitoso
+        //Registro fallido
         cy.contains('Ingresar').click()
         cy.get('.cajaSignUp').find('input[name="nombre"]').click().type("Juan")
         cy.get('.cajaSignUp').find('input[name="apellido"]').click().type("Perez")
