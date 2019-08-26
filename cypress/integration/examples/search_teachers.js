@@ -1,4 +1,4 @@
-describe('Los estudiantes login', function() {
+describe('Los estudiantes search teachers', function() {
     it('Visits los estudiantes and search teachers', function() {
         cy.visit('https://losestudiantes.co')
         cy.contains('Cerrar').click()

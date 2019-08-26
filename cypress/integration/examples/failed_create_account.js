@@ -1,4 +1,4 @@
-describe('Los estudiantes login', function() {
+describe('Los estudiantes create account fail', function() {
     it('Visits los estudiantes and fails at sign up', function() {
         cy.visit('https://losestudiantes.co')
         cy.contains('Cerrar').click()
